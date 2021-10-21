@@ -1,0 +1,9 @@
+version: v1.0 (9.10.2021)
+creator: Kirill Makhnev 
+telegram: unequal21 (https://t.me/unequal21)
+
+
+
+use this to fix problem with launch
+
+npm install webp-converter@2.2.3 --save-dev

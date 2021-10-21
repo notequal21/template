@@ -1,0 +1,203 @@
+// -------- imports --------
+@import "fonts";
+@import "_normalize.scss";
+@import "_mixins.scss";
+@import "_variables.scss";
+@import "_ui.scss";
+
+
+// fonts --------- &display=swap || &subset=cyrillic-ext
+// throught plugin
+
+
+//  ------------- burger --------
+// .main__burger {
+//     display: none;
+//     @media (max-width: 780px) {
+//         display: block;
+//         position: fixed;
+//         right: 30px;
+//         top: 50px;
+//         z-index: 51;
+//         width: 30px;
+//         height: 20px;
+//         &::before, &::after {
+//             content: '';
+//             background-color: rgb(0, 0, 0);
+//             position: absolute;
+//             width: 100%;
+//             height: 2px;
+//             left: 0;
+//             transition: all 0.3s ease;
+//         }
+//         &::before {
+//             top: 0;
+//         }
+//         &::after {
+//             bottom: 0;
+//         }
+//         span {
+//             position: absolute;
+//             width: 100%;
+//             height: 2px;
+//             top: 9px;
+//             background-color: rgb(0, 0, 0);
+//             transition: all 0.3s ease;
+//         }
+//         &.active {
+//             &::before {
+//                 transform: rotate(45deg);
+//                 top: 9px;
+//             }
+//             &::after {
+//                 transform: rotate(-45deg);
+//                 bottom: 9px;
+//             }
+//             span {
+//                 transform: scale(0);
+//             }
+//         }
+//     }
+// }
+//.lock {
+//    overflow: hidden;
+//}
+// ----------
+
+// ---------- SLIDER -----------
+
+// /* Слайдер */
+// .slick-slider{}
+// /* Слайдер запущен */
+// .slick-slider.slick-initialized{}
+// /* Слайдер с точками */
+// .slick-slider.slick-dotted{}
+// /* Ограничивающая оболочка */
+// .slick-list {
+//     overflow: hidden;
+// }
+// /* Лента слайдов */
+// .slick-track{
+//     display: flex;
+//     align-items: flex-start;
+// }
+// /* Слайд */
+// .slick-slide{}
+// /* Слайд активный (показывается) */
+// .slick-slide.slick-active{}
+// /* Слайд основной */
+// .slick-slide.slick-current{}
+// /* Слайд по центру */
+// .slick-slide.slick-center{}
+// /* Клонированный слайд */
+// .slick-slide.slick-cloned{}
+// /* Стрелка */
+// .slick-arrow{}
+// /* Стрелка влево */
+// .slick-arrow.slick-prev{}
+// /* Стрелка вправо */
+// .slick-arrow.slick-next{}
+// /* Стрелка не активная */
+// .slick-arrow.slick-disabled{}
+// /* Точки (булиты) */
+// .slick-dots{}
+// .slick-dots li{}
+// /* Активная точка */
+// .slick-dots li.slick-active{}
+// /* Элемент точки */
+
+// ----------------------
+
+// ------- TABS ---------
+
+// /* Стили для списка вкладок */
+// .tab-header {
+//     list-style: none;
+//     padding-left: 0;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     margin: 0;
+//     border-top: 1px solid #d7d7d7;
+//     border-bottom: 1px solid #d7d7d7;
+//     @media (max-width: 1023px) {
+//         flex-wrap: wrap;
+//     }
+// }
+//  /* Стили для вкладки */
+// .tab-header__item {
+//     padding: 10px 20px;
+//     margin-right: 5px;
+//     cursor: pointer;
+//     @include adaptiv-font(14, 13);
+//     color: #777777;
+//     font-family: Roboto;
+//     font-weight: 700;
+//     line-height: 24px;
+//     text-transform: uppercase;
+//     letter-spacing: 1.05px;
+//     position: relative;
+//     transition: all 0.3s ease;
+//     &:hover {
+//         color: #444444;
+//     }
+//     &::after {
+//         content: '';
+//         position: absolute;
+//         top: 7px;
+//         right: 0px;
+//         transform: rotate(20deg);
+//         display: block;
+//         width: 1px;
+//         height: 30px;
+//         background-color: #d7d7d7;
+//     }
+//     &:last-child {
+//         &::after {
+//             display: none;
+//         }
+//     }
+// }
+//  /* Стили для активной вкладки */
+// .tab-header__item.active {
+//     color: #000000;
+//     border-bottom: none;
+//     position: relative;
+// }
+//  /* Стиль для списка контейнеров с содержимым вкладок */
+// .tab-content {
+//     list-style: none;
+//     padding: 0;
+//     margin: 0;
+// }
+//  /* Стили для контейнера с содержимым вкладки. По умолчанию скрыт. */
+// .tab-content__item {
+//     display: none;
+// }
+//  /* Стили для активного контейнера вкладки */
+// .tab-content__item.active {
+//     display: block;
+// }
+
+// ----------------------
+
+::selection {}
+
+body {
+    overflow: auto; // <--- delete this if not necessary
+}
+.container {
+    max-width: 0px; // <--- container res +30px for padding
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    flex: 1 1 auto;
+}
+
