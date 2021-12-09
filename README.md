@@ -1,0 +1,23 @@
+# Template for layout
+
+### version: v1.1 (09.12.2021)
+
+##### creator: Kirill
+
+##### telegram: [unequal21](https://t.me/unequal21)
+
+## Installation
+
+`npm i`
+`gulp`
+
+## Build sprite
+
+`gulp svgSprite`
+
+## Updates
+
+- file structure
+- added svg sprites
+- disables webp
+- cleared style.scss
