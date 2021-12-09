@@ -8,6 +8,8 @@
 
 ## Installation
 
+`npm start`
+or
 ```
 npm i
 gulp
