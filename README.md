@@ -8,8 +8,10 @@
 
 ## Installation
 
-`npm i`
-`gulp`
+```
+npm i
+gulp
+```
 
 ## Build sprite
 
