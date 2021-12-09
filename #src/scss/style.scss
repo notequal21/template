@@ -1,9 +1,10 @@
 // -------- imports --------
-@import "fonts";
-@import "_normalize.scss";
-@import "_mixins.scss";
-@import "_variables.scss";
-@import "_ui.scss";
+@import "components/fonts";
+@import "components/_normalize.scss";
+@import "components/_mixins.scss";
+@import "components/_variables.scss";
+@import "components/_ui.scss";
+@import "pages/index/_main.scss";
 
 
 // fonts --------- &display=swap || &subset=cyrillic-ext
