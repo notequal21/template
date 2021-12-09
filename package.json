@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "npm i && gulp && gulp svgSprite",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "eql",
