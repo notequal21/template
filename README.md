@@ -2,7 +2,7 @@
 
 ### version: v1.1 (09.12.2021)
 
-##### creator: Kirill
+##### creator: Kirill Makhnev ( notequal21 )
 
 ##### telegram: [unequal21](https://t.me/unequal21)
 
