@@ -3,8 +3,13 @@
 @import "components/_normalize.scss";
 @import "components/_mixins.scss";
 @import "components/_variables.scss";
+@import "components/_variables.scss";
+@import "components/_header.scss";
+@import "components/_footer.scss";
 @import "components/_ui.scss";
 @import "pages/index/_main.scss";
+
+@import "media.scss";
 
 
 // fonts --------- &display=swap || &subset=cyrillic-ext
