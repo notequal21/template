@@ -1,28 +1,16 @@
 # Template for layout
 
-### version: v1.1 (09.12.2021)
+### version: v2.0 (14.05.2022)
 
 ##### creator: Kirill Makhnev ( notequal21 )
 
 ##### telegram: [unequal21](https://t.me/unequal21)
 
-## Installation
+## Commands 
 
-`npm start`  
-
-or
-```
-npm i
-gulp
-```
-
-## Build sprite
-
-`gulp svgSprite`
-
-## Updates
-
-- file structure
-- added svg sprites
-- disables webp
-- cleared style.scss
+`npm i`  
+`npm run dev`
+`npm run build`    
+`npm run zip`
+`npm run deploy`
+`npm run svgSprive`
